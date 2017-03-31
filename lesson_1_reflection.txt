@@ -1,0 +1,20 @@
+**Viewing a diff between two versions** helped to identify which things had been
+changed. From there it was possible to see which changes were expected, and
+which weren't, as well as shrinking down the number of lines needed to review
+
+**Easy access to file history** can help correct mistakes, and understand the
+history of the development of a piece of code. To correct mistakes, if something
+no longer works, you can compare it with an older version of the code that was
+clean. Reviewing old code also helps you understand the context of the current
+code base. Finally, if you deprecated some code, but want to bring it back, you
+can review historic versions rather than rewriting it
+
+**Advantage of manual commits** is that they should always sit at a logical
+break point, which means that when you look back over the history, each commit
+can be useful to review, rather than clutter. It also means you don't commit
+code that is half complete and that won't compile properly. However, it can
+also result in you not committing often enough, allowing complexity to creep
+into your code
+
+**Saving multiple files in 1 commit** is helpful to ensure consistency across
+related files (and also more efficient than saving each individually)
