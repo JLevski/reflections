@@ -1,0 +1,16 @@
+**git log:** shows a history of commits in terminal
+**git log --stat** shows a history of commits across a repository in terminal
+(i.e. across files)
+**git diff id1 id2** shows the difference between two commits
+**git clone URL** to clone a repository from github
+**git checkout id** takes you back to an older version, but committing this can
+overwrite any changes made since
+**git init** creates a .git (. means hidden) file to turn something into a
+repository
+**git status** gives you the status of the directory
+**git add** adds files to the staging area (ready to be committed)
+**git commit -m "Commit Message"** lets you commit from staging area to the
+repository, and add a message to it. The message is optional but recommended
+**Commit message format**: Ideal format has *type: subject* (i.e. feature, bug
+docs, style, refactor, test), *body* (detailed description of changes), and
+*footer* (reference issues e.g. #123)
