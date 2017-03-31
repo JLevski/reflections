@@ -1,0 +1,9 @@
+**Initialising a reflection** allows you to create a repository and start
+tracking changes in it
+
+Your files are initially in a working directory. You can add files to the
+staging area with git add, which has them ready to be committed
+
+**Staging area** lets you break up your commits into logical chunks, making
+it easier to trace what changes were made. It also forms a middleground before
+actually committing work
