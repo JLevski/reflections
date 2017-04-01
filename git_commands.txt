@@ -1,7 +1,9 @@
 **git log:** shows a history of commits in terminal
 **git log --stat** shows a history of commits across a repository in terminal
 (i.e. across files)
-**git diff id1 id2** shows the difference between two commits
+**git diff id1 id2** shows the difference between two commits. You can also use
+**git diff** without ids to compare the staging area to the working directory
+**git diff --staged** compares what is in staging area to the last commit
 **git clone URL** to clone a repository from github
 **git checkout id** takes you back to an older version, but committing this can
 overwrite any changes made since
@@ -14,3 +16,9 @@ repository, and add a message to it. The message is optional but recommended
 **Commit message format**: Ideal format has *type: subject* (i.e. feature, bug
 docs, style, refactor, test), *body* (detailed description of changes), and
 *footer* (reference issues e.g. #123)
+**git reset --hard** wipes your staging area and working directory (and you
+can't get it back)
+**git branch** shows your current branches
+**git branch name** creates a new branch called name. There will be a * next to
+the branch that is currently active (as always, to change branches use git
+checkout)
