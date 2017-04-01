@@ -7,3 +7,7 @@ staging area with git add, which has them ready to be committed
 **Staging area** lets you break up your commits into logical chunks, making
 it easier to trace what changes were made. It also forms a middleground before
 actually committing work
+
+**Use branches** for experimental purposes, allowing you to still incorporate
+the master without having to regularly switch between commits --> context
+switching
